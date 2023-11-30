@@ -1,0 +1,169 @@
+body {
+  align-items: center;
+  line-height: 29px;
+  font-family: Arial;
+  background: linear-gradient(
+    to top,
+    rgb(35, 171, 255) 15%,
+    blue 50%,
+    rgb(35, 171, 255) 70%,
+    rgb(35, 171, 255) 70%
+  );
+  color: rgb(255, 255, 255);
+}
+p {
+  font-size: 20px;
+}
+ol {
+  font-size: 19px;
+}
+ul {
+  font-size: 19px;
+}
+.page-1,
+.page-2,
+.page-3,
+.page-4 {
+  width: 450px;
+}
+.page-5 {
+  width: 650px;
+}
+.head-1 {
+  font-size: 20px;
+  font-weight: bolder;
+  font-style: italic;
+  text-transform: uppercase;
+  /*width: 480px;*/
+  /*text-align: center;*/
+  padding-bottom: 25px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 10px;
+  line-height: 0px;
+}
+.head-1,
+.head-2,
+.head-3,
+.head-4,
+.child-link {
+  color: rgb(255, 255, 0);
+}
+.head-2 {
+  font-size: 40px;
+}
+.head-3 {
+  font-size: 30px;
+}
+.all-link {
+  padding-left: 28px;
+  padding-bottom: 28px;
+  line-height: 0px;
+}
+.child-link {
+  margin-right: 25px;
+  font-style: italic;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.child-link:hover {
+  opacity: 0.7;
+}
+.child-link:active {
+  opacity: 0.6;
+  cursor: progress;
+}
+.heading {
+  box-shadow: 2px 2px 1.9px rgba(0, 0, 0, 0.8);
+  background-color: rgb(0, 149, 255);
+}
+.aside-el {
+  background-color: rgb(100, 111, 237);
+  width: 400px;
+  border: 5px solid yellow;
+  border-left: none;
+  border-right: none;
+}
+.head-4 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.link {
+  color: yellow;
+  font-style: italic;
+}
+.link:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+.link:active {
+  opacity: 0.8;
+  cursor: progress;
+}
+li:first-child {
+  font-weight: bold;
+}
+.para-sec {
+  line-height: 10px;
+  padding-left: 30px;
+}
+.para-sec-2 {
+  line-height: 10px;
+  padding-left: 30px;
+}
+.headshot {
+  cursor: not-allowed;
+}
+.html-img {
+  cursor: not-allowed;
+}
+.aside-section {
+  line-height: 15px;
+}
+.aston-shoe {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 30px;
+}
+.link-p {
+  line-height: 0px;
+}
+.un-list {
+  line-height: 25px;
+}
+.cart {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background: linear-gradient(
+    to right,
+    rgb(252, 255, 1) 15%,
+    rgb(252, 252, 1) 5%,
+    rgb(106, 255, 0) 80%,
+    rgb(106, 255, 0) 60%
+  );
+  border: none;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Arial;
+  transition: 0.3s;
+  margin-bottom: 15px;
+}
+.cart:hover {
+  cursor: pointer;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.9);
+  opacity: 0.9;
+}
+.cart:active {
+  cursor: progress;
+  opacity: 0.7;
+}
+.shoe-com {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 50px;
+}
