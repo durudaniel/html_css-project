@@ -103,6 +103,12 @@ ul {
 li:first-child {
   font-weight: bold;
 }
+a:link {
+  text-decoration: none;
+}
+a:link:hover {
+  text-decoration: underline;
+}
 .para-sec {
   line-height: 10px;
   padding-left: 30px;
