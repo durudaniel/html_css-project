@@ -185,6 +185,7 @@ section h4 {
   color: rgb(255, 255, 0);
   text-decoration: none;
   text-transform: uppercase;
+  font-weight: bold;
   transition: text-decoration, opacity, cursor 0.3s;
 }
 .more-info:hover {
