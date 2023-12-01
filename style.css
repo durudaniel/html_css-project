@@ -172,7 +172,12 @@ a:link:hover {
   padding-bottom: 20px;
   padding-top: 20px;
   font-size: 50px;
+  background-color: rgb(0, 140, 255);
 }
 section h4 {
   font-size: 23px;
+}
+.shoe-com,
+.aston-shoe {
+  color: rgb(255, 255, 0);
 }
