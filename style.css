@@ -10,6 +10,7 @@ body {
     rgb(35, 171, 255) 70%
   );
   color: rgb(255, 255, 255);
+  margin: 0;
 }
 p {
   font-size: 20px;
