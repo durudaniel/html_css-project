@@ -12,6 +12,12 @@ body {
   color: rgb(255, 255, 255);
   margin: 0;
 }
+.div-container {
+  width: 800px;
+  /*margin-left: auto;
+  margin-right: auto;*/
+  margin: 0 auto;
+}
 p {
   font-size: 20px;
 }
@@ -31,13 +37,13 @@ ul {
   width: 650px;
 }
 .head-1 {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bolder;
   font-style: italic;
   text-transform: uppercase;
   /*width: 480px;*/
   /*text-align: center;*/
-  padding-bottom: 25px;
+  /*padding-bottom: 25px;*/
   padding-top: 30px;
   padding-left: 30px;
   padding-right: 10px;
@@ -56,21 +62,24 @@ ul {
 .head-3 {
   font-size: 30px;
 }
-.all-link {
-  padding-left: 28px;
-  padding-bottom: 28px;
-  line-height: 0px;
-}
-.child-link {
+nav a:link {
+  margin: 0;
   margin-right: 25px;
+  margin-top: 15px;
+  padding-left: 25px;
+  display: inline-block;
   font-style: italic;
   font-weight: bold;
   transition: 0.3s;
+  /*padding-left: 28px;
+  padding-bottom: 28px;
+  line-height: 0px;*/
 }
-.child-link:hover {
+
+nav a:hover {
   opacity: 0.7;
 }
-.child-link:active {
+nav a:active {
   opacity: 0.6;
   cursor: progress;
 }
@@ -123,77 +132,4 @@ a:link:hover {
 }
 .html-img {
   cursor: not-allowed;
-}
-.aside-section {
-  line-height: 15px;
-}
-.aston-shoe {
-  text-align: center;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  font-size: 30px;
-}
-.link-p {
-  line-height: 0px;
-}
-.un-list {
-  line-height: 25px;
-}
-.cart {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 30px;
-  padding-right: 30px;
-  background: linear-gradient(
-    to right,
-    rgb(252, 255, 1) 15%,
-    rgb(252, 252, 1) 5%,
-    rgb(106, 255, 0) 80%,
-    rgb(106, 255, 0) 60%
-  );
-  border: none;
-  border-radius: 25px;
-  font-size: 15px;
-  font-weight: bold;
-  font-family: Arial;
-  transition: 0.3s;
-  margin-bottom: 15px;
-}
-.cart:hover {
-  cursor: pointer;
-  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.9);
-  opacity: 0.9;
-}
-.cart:active {
-  cursor: progress;
-  opacity: 0.7;
-}
-.shoe-com {
-  text-align: center;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  font-size: 50px;
-  background-color: rgb(0, 140, 255);
-}
-section h4 {
-  font-size: 23px;
-}
-.shoe-com,
-.aston-shoe {
-  color: rgb(255, 255, 0);
-}
-.more-info {
-  color: rgb(255, 255, 0);
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: bold;
-  transition: text-decoration, opacity, cursor 0.3s;
-}
-.more-info:hover {
-  text-decoration: underline;
-  opacity: 0.8;
-}
-.more-info:active {
-  opacity: 0.7;
-  cursor: progress;
 }
