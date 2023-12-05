@@ -11,12 +11,14 @@ body {
   );
   color: rgb(255, 255, 255);
   margin: 0;
+  position: relative;
 }
 .div-container {
   width: 800px;
   /*margin-left: auto;
   margin-right: auto;*/
   margin: 0 auto;
+  position: relative;
 }
 p {
   font-size: 20px;
@@ -49,6 +51,27 @@ ul {
   padding-right: 10px;
   line-height: 0px;
 }
+/* pseudo element*/
+.head-1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+.head-2::after {
+  content: "TOP";
+  font-size: 16px;
+  background-color: yellow;
+  display: inline-block;
+  color: blue;
+  padding-top: 0px;
+  padding-top: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: absolute;
+  top: -20px;
+  right: -29px;
+  border-radius: 3px;
+}
+
 .head-1,
 .head-2,
 .head-3,
@@ -58,6 +81,7 @@ ul {
 }
 .head-2 {
   font-size: 40px;
+  position: relative;
 }
 .head-3 {
   font-size: 30px;
@@ -132,4 +156,11 @@ a:link:hover {
 }
 .html-img {
   cursor: not-allowed;
+}
+button {
+  padding: 18px;
+  font-size: 20px;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
 }
