@@ -117,6 +117,7 @@ nav a:active {
   border: 5px solid yellow;
   border-left: none;
   border-right: none;
+  display: inline-block;
 }
 .head-4 {
   text-align: center;
@@ -158,9 +159,14 @@ a:link:hover {
   cursor: not-allowed;
 }
 button {
-  padding: 18px;
+  padding: 13px;
   font-size: 20px;
   position: absolute;
   bottom: 50px;
   right: 50px;
+  cursor: pointer;
+}
+/*Using Floats*/
+.aside-el {
+  float: left;
 }
