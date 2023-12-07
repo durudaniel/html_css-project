@@ -14,7 +14,7 @@ body {
   position: relative;
 }
 .div-container {
-  width: 800px;
+  width: 1200px;
   /*margin-left: auto;
   margin-right: auto;*/
   margin: 0 auto;
@@ -68,7 +68,7 @@ ul {
   padding-right: 10px;
   position: absolute;
   top: -20px;
-  right: -29px;
+  right: 10px;
   border-radius: 3px;
 }
 
@@ -80,7 +80,7 @@ ul {
   color: rgb(255, 255, 0);
 }
 .head-2 {
-  font-size: 40px;
+  font-size: 37px;
   position: relative;
 }
 .head-3 {
@@ -91,7 +91,9 @@ nav a:link {
   margin-right: 25px;
   margin-top: 15px;
   padding-left: 25px;
+  padding-bottom: 18px;
   display: inline-block;
+  font-size: 16px;
   font-style: italic;
   font-weight: bold;
   transition: 0.3s;
@@ -113,7 +115,6 @@ nav a:active {
 }
 .aside-el {
   background-color: rgb(100, 111, 237);
-  width: 400px;
   border: 5px solid yellow;
   border-left: none;
   border-right: none;
@@ -167,6 +168,39 @@ button {
   cursor: pointer;
 }
 /*Using Floats*/
-.aside-el {
+.headshot {
   float: left;
+  margin-bottom: 18px;
+}
+.author {
+  margin-left: 100px;
+  margin-top: 77px;
+}
+.head-1 {
+  float: left;
+}
+nav a:link {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+.clear::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+article {
+  width: 800px;
+  float: left;
+  margin-top: 45px;
+}
+footer {
+  clear: both;
+}
+.aside-el {
+  float: right;
+  width: 360px;
+  margin-top: 60px;
+  padding: 50px 40px;
+  box-sizing: border-box;
 }
