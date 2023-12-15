@@ -239,19 +239,41 @@ footer {
   margin-bottom: 8px;
   display: block;
 }
+/*
 .row {
   display: flex;
   gap: 70px;
   align-items: flex-start;
 }
 article {
-  flex: 0 0 825px;
+  flex: 1;
   margin-top: 70px;
 }
 aside {
-  flex: 0 0 300px;
+  flex-grow: 0;
+  flex-shrink: 1;
   margin-top: 80px;
 }
+*/
 footer h6 {
   font-size: 15px;
+}
+/* CSS GRID LAYOUT*/
+.container {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  column-gap: 75px;
+  row-gap: 60px;
+}
+.heading {
+  grid-column: 1 / -1;
+  padding: 30px;
+}
+article {
+}
+.aside-el {
+  align-self: flex-start;
+}
+footer {
+  grid-column: 1 / -1;
 }
